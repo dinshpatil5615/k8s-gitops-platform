@@ -1,7 +1,18 @@
-We are going to build a self service deployment platform.
-1 - Developer pushes code
-2 - Our platform will Deploys it automatically
-3 - Developer does not touch kubernetes directly
+## Architecture Overview
 
-Tools used in Self service deployment platform -
-Git,Github-actions,Docker,Kubernetes,ArgoCD,NGINX ingress,Prometheus and Grafana
+This project implements a self-service deployment platform.
+
+### Workflow
+1. A developer pushes application code to Git.
+2. The platform automatically builds and deploys the application.
+3. Kubernetes runs in the background and is not directly accessed by the developer.
+
+### Tools Used
+- Git
+- GitHub Actions
+- Docker
+- Kubernetes
+- ArgoCD
+- NGINX Ingress
+- Prometheus
+- Grafana
