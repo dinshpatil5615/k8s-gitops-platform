@@ -25,4 +25,4 @@ jobs:
           context: ././apps
           file: ././apps/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/dineshpatil0908/platform-app:v3
+          tags: ${{ secrets.DOCKER_USERNAME }}/platform-app:v3
