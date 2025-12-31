@@ -1,6 +1,9 @@
-name: Docker CI Pipeline
+name: Docker CI
 
-on: push
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build-and-push:
@@ -22,9 +25,9 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: ././apps
-          file: ././apps/Dockerfile
+          context: ./apps
+          file: ./apps/Dockerfile
           push: true
-          tags:
-            - ${{ secrets.DOCKER_USERNAME }}/platform-app:${{ github.sha }}
-            - ${{ secrets.DOCKER_USERNAME }}/platform-app:v3
+          tags: |
+            ${{ secrets.DOCKER_USERNAME }}/platform-app:${{ github.sha }}
+            ${{ secrets.DOCKER_USERNAME }}/platform-app:v3
