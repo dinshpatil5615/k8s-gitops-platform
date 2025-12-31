@@ -1,7 +1,5 @@
 name: Docker CI Pipeline
-
 on: push
-
 
 jobs:
   build-and-push:
