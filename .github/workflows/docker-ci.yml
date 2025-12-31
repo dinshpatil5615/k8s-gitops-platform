@@ -22,6 +22,7 @@ jobs:
       - name: Build and Push Docker Image
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ././apps
+          file: ././apps/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/dineshpatil0908/platform-app:v3
