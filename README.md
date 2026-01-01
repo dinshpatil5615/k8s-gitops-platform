@@ -23,8 +23,8 @@ The platform automatically handles CI/CD, deployment, ingress, and monitoring, w
 ---
 
 platform-project/
-- apps: Dockerfile, app-code
-- k8s: deployment.yaml, service.yaml
+- apps: Dockerfile, app-code/main.py
+- k8s: deployment.yaml, service.yaml , configmap.yaml
 - .github/workflows: docker-ci.yaml
 - README.md
 
