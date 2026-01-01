@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: platform-app
-        image: dineshpatil0908/platform-app:v3
+        image: dineshpatil0908/platform-app:v4
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
