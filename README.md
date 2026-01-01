@@ -22,47 +22,17 @@ The platform automatically handles CI/CD, deployment, ingress, and monitoring, w
 
 ---
 
-## 📂 Project Structure
-
 platform-project/
-│
-├── apps/
-│ ├── Dockerfile
-│ └── app-code
-│
-├── k8s/
-│ ├── deployment.yaml
-│ └── service.yaml
-│
-├── .github/
-│ └── workflows/
-│ └── docker-ci.yaml
-│
-└── README.md
-
-yaml
-Copy code
+- apps: Dockerfile, app-code
+- k8s: deployment.yaml, service.yaml
+- .github/workflows: docker-ci.yaml
+- README.md
 
 ---
 
 ## 🔁 CI/CD Workflow
 
-Code Push
-↓
-GitHub Repository
-↓
-GitHub Actions (CI)
-↓
-Docker Image Build
-↓
-Docker Hub
-↓
-GitOps (Argo CD)
-↓
-Kubernetes Deployment
-
-yaml
-Copy code
+Code Push → GitHub Repo → GitHub Actions (CI) → Docker Image Build → Docker Hub → Argo CD (GitOps) → Kubernetes Deployment
 
 ---
 
