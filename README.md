@@ -139,3 +139,11 @@ Git is the **single source of truth** for Kubernetes deployments.
 This project implements a **real-world DevOps pipeline** where CI is handled using GitHub Actions and CD is managed using **Argo CD with GitOps principles**, ensuring automation, consistency, and reliability.
 
 ---
+
+
+![Screenshot 2025-12-31 172258](https://github.com/user-attachments/assets/dbfc253e-7698-400a-a779-785f25e64ccf)
+![Screenshot 2026-01-02 154603](https://github.com/user-attachments/assets/fc243131-f9af-4068-b046-aea54a64ec87)
+![Screenshot 2026-01-02 154703](https://github.com/user-attachments/assets/f9dd2713-57dd-4723-bd11-af5ccdc3df07)
+![Screenshot 2026-01-02 154743](https://github.com/user-attachments/assets/98b9f3a2-2bfc-4f7d-b427-044c0164cfd3)
+![Screenshot 2026-01-02 154759](https://github.com/user-attachments/assets/202901db-e79a-41bb-b310-3516196ed5ba)
+![Screenshot 2026-01-02 154817](https://github.com/user-attachments/assets/012422b7-07e7-4e99-b131-375ed0d61640)
